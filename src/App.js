@@ -20,10 +20,10 @@ export default function App() {
       </div>
       <div className="input">
         <label>File Input: </label>
-        <button className="button" onclick={() => handleFile()}>Choose File</button>
+        <button className="btn" onclick={() => handleFile()}>Choose File</button>
         <span class="infotext"> No file chosen</span>
       </div>
-        <button className="button" onclick={() => submit()}>Submit</button>
+        <button className="btn" onclick={() => submit()}>Submit</button>
     </div>
   );
 }
