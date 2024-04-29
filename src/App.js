@@ -21,7 +21,7 @@ export default function App() {
       <div className="input">
         <label>File Input: </label>
         <button className="button" onclick={() => handleFile()}>Choose File</button>
-        <span class="infotext">No file chosen</span>
+        <span class="infotext"> No file chosen</span>
       </div>
         <button className="button" onclick={() => submit()}>Submit</button>
     </div>
