@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+export default function App() {
+
+  const navigate = useNavigate();
+
+  function handleText(inpuut) {
+
+  }
+  function handleFile() {
+
+  }
+  function submit() {
+
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="input">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Text Input: 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <input type="text" id="input-box" value={input} placeholder="Enter text" onChange={(text) => setUsername(text.target.value)}/>
+      </div>
+      <div className="input">
+        <p>
+          File Input: 
+        </p>
+        <button className="button" onclick={() => handleFile()}>Choose File</button>
+      </div>
+        <button className="button" onclick={() => submit()}>Submit</button>
     </div>
   );
 }
-
-export default App;
