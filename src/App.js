@@ -3,7 +3,8 @@ import './App.css';
 
 export default function App() {
 
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
+  const [input, handleText] = useState("");
 
   function handleText(inpuut) {
 
@@ -20,7 +21,7 @@ export default function App() {
         <p>
           Text Input: 
         </p>
-        <input type="text" id="input-box" value={input} placeholder="Enter text" onChange={(text) => setUsername(text.target.value)}/>
+        <input type="text" id="input-box" value={input} placeholder="Enter text" onChange={(text) => handleText(text.target.value)}/>
       </div>
       <div className="input">
         <p>
