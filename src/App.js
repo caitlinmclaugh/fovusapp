@@ -6,9 +6,6 @@ export default function App() {
   //const navigate = useNavigate();
   const [input, handleText] = useState("");
 
-  function handleText(inpuut) {
-
-  }
   function handleFile() {
 
   }
