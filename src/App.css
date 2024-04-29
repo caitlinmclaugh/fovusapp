@@ -3,7 +3,7 @@
 .App {
   margin: 60px auto 0 auto;
   width: 450px;
-  line-height: 1.5em;
+  line-height: 2em;
   font-family: 'Times New Roman', Times, serif;
   flex: 1;
   align-items: left;

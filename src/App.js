@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
       <div className="input">
         <label>Text Input: </label>
-        <input type="text" id="input-box" value={input} placeholder="Enter text" onChange={(text) => handleText(text.target.value)}/>
+        <input type="text" id="input-box" value={input} onChange={(text) => handleText(text.target.value)}/>
       </div>
       <div className="input">
         <label>File Input: </label>
