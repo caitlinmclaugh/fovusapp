@@ -30,10 +30,10 @@
 }
 
 input {
-  margin-top: 15px;
-  padding: 8px;
+  padding: 5px;
   width: 40%;
   color: white;
+  border: 1px solid lightgray;
 }
 
 .label {
@@ -46,7 +46,7 @@ input {
 .btn {
   padding: 5px 5px;
   border: 1px solid lightgray;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: black;
   color: white;
   font-size: 14px;
