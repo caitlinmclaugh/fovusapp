@@ -1,3 +1,4 @@
+* {background-color: black}
 
 .App {
   margin: 60px auto 0 auto;
@@ -5,7 +6,7 @@
   flex: 1;
   align-items: left;
   justify-content: space-evenly;
-  background-color: black;
+  color: white
 }
 
 .App-header {
